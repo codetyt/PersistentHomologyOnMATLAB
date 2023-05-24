@@ -81,7 +81,6 @@ function [Persistence, Rinfs] = get_PD_H01_from_2Ddata(data)
     Alpha_index = Alpha_index(1, 1:count);
     Alpha_dims = Alpha_dims(1, 1:count);
     Alpha_Rs = Alpha_Rs(1, 1:count);
-    toc
     "--Having "+count+" Simplicies--"
     
     
