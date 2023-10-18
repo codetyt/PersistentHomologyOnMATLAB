@@ -26,7 +26,7 @@ VisualizePersistentDiagram(PD, Rinfs);
 ```
 Practical functions are following:
 ### [PD, Rinfs] = get_PD_H0...(d-1)_from_dDdata(data)
-This calculate persistent diagram for $p$-th persistent homology groups $(p = 0,\dots, d-1)$, where $d$ is the dimension of input data.
+This calculates persistent diagram for $p$-th persistent homology groups $(p = 0,\dots, d-1)$, where $d$ is the dimension of input data.
 Output PD is data points of persistent diagram for each dimensions, and Rinfs recomended dummy values to show a persistent pair at infinity.
 ### VisualizePersistentDiagram(PD, Rinfs);
-This show plots of persistent diagram based on inputs PD and Rinfs.
+This shows plots of persistent diagram based on inputs PD and Rinfs.
